@@ -69,12 +69,15 @@ class MyApp:
     def punchClicked(self):
                             global punchdmg
                             global monsterhealth
+                            monsterhealth-punchdmg
     def swordClicked(self):
                             global sworddmg
                             global monsterhealth
+                            monsterhealth-sworddmg
     def fireballClicked(self):
                             global fireballdmg
                             global monsterhealth
+                            monsterheal-fireballdmg
     def healClicked(self):
                             global heal
                             global playerhealth
